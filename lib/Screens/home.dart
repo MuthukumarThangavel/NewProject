@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 class Home extends StatelessWidget {
   Home({super.key});
 
-  late List<bool> _isOpen;
-
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
